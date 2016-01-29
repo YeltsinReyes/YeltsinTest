@@ -1,5 +1,5 @@
 <?php
-/*
+
 @set_time_limit(0);
 header('Content-type: image/jpeg');
 
@@ -13,6 +13,5 @@ imagettftext($image, 20, 0, 25, 40, $color, $font, 'hhhhhhhhhhhhhh');
 
 imagejpeg($image);
 imagedestroy($image);
-*/
-echo 'Hola mundo!';
+
 ?>
