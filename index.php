@@ -4,7 +4,7 @@ header('Content-type: image/jpeg');
 
 $nombre = ucwords($_GET['n']);
 
-$image = imagecreatefromjpeg('https://yeltsintest-yeltsinreyes.c9users.io/secomoyo.jpg');
+$image = imagecreatefromjpeg('secomoyo.jpg');
 $font = 'trebuc.ttf';
 $color = imagecolorallocate($image, 47, 48, 50);
 
